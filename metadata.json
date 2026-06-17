@@ -1,0 +1,6 @@
+{
+  "name": "Sonoluminescence Telemetry Portal",
+  "description": "Scientific sound-and-light portal with interactive 3D orb telemetry, live acoustics tracking, and ambient acoustic wave synth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
