@@ -255,6 +255,10 @@ export default function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
+  useEffect(() => {
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}, []);
+
   // Main simulation configurations
   const [params, setParams] = useState<SimulationParams>({
     speed: 1.0,
